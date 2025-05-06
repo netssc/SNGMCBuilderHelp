@@ -1,0 +1,17 @@
+name: SNGMCBuilderHelp
+version: 1.0
+main: sngmc.build.BuilderHelp
+authors: [SNGMC]
+website: plugins.sngmc.ru
+
+commands:
+  buildhelp:
+    description: "Выдает предмет для открытия меню строителя"
+    usage: "/buildhelp"
+    permission: "builderhelp.use"
+    permission-message: "У вас нет прав на использование этой команды!"
+
+permissions:
+  builderhelp.use:
+    description: "Разрешение на использование команды /buildhelp"
+    default: true
