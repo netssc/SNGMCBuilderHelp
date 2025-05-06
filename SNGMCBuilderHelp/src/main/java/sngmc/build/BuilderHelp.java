@@ -22,12 +22,12 @@ public class BuilderHelp extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new BlockInfoListener(this), this);
 
         // Сообщение в консоль с цветами
-        Bukkit.getConsoleSender().sendMessage(consolePrefix + " BuilderHelp включен! Скачано с plugins.sngmc.ru");
+        Bukkit.getConsoleSender().sendMessage(consolePrefix + " BuilderHelp включен!");
     }
 
     @Override
     public void onDisable() {
-        Bukkit.getConsoleSender().sendMessage(consolePrefix + " BuilderHelp выключен! Скачано с plugins.sngmc.ru");
+        Bukkit.getConsoleSender().sendMessage(consolePrefix + " BuilderHelp выключен!");
     }
 
     public String getMessagePrefix() {
